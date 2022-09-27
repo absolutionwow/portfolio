@@ -1,0 +1,6 @@
+export {default as Hello} from './hello/Hello'
+export {default as Skills} from './skills/Skills'
+export {default as Recent} from './recent/Recent'
+export {default as GetInTouch} from './getintouch/GetInTouch'
+export {default as Navbar} from './navbar/Navbar'
+export {default as Articles} from './articles/Articles'

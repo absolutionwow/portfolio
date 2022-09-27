@@ -1,0 +1,64 @@
+.contactText {
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.contactContainer{
+    margin-top: 10rem;
+}
+
+.contactPrompt{
+      display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  color: var(--color-highlight);
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+
+.freelance {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.freelanceStatus {
+    background-color: lightgreen;
+    color: darkgreen;
+    font-family: var(--font-family);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.socials{
+    color: var(--color-highlight);
+}
+
+.socialsIcon{
+    font-size: 52px;
+    margin-left: 1rem;
+    margin-bottom: 6rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .contactText{
+        text-align: center;
+    }
+    .contactPrompt{
+        justify-content: center;
+    }
+    .freelance{
+        justify-content: center;
+    }
+
+    .socials{
+        display: flex;
+        justify-content: center;
+    }
+
+
+  }

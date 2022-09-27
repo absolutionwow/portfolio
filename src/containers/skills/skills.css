@@ -1,0 +1,48 @@
+.skillsBG {
+    background-color: #2d3748;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    width: 80px;
+    margin: 40px;
+}
+
+h2{
+    font-family: var(--font-family);
+    color: var(--color-text);
+    margin-left: 1rem;
+
+}
+
+.highlightSkill {
+    width: 100px;
+    border: var(--color-highlight);
+    color: white;
+    font-family: var(--font-family);
+    z-index: 1px;
+    margin-bottom: -25px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+    img {
+        width: 160px;
+        margin:60px;
+    }
+
+    .highlightSkill{
+        margin: auto;
+        margin-bottom: -50px;
+    }
+    .skillsBG{
+        align-items: flex-start;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

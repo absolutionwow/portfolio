@@ -1,0 +1,42 @@
+.articleImg{
+    width: 250px;
+}
+
+.articleContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.openArticle{
+    background: none;
+	color: var(--color-highlight);
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    
+}
+
+.articleText{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .articleImg{
+        width: 350px;
+    }
+
+    .articleText{
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+}
